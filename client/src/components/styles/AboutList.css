@@ -1,0 +1,10 @@
+.AboutList{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    
+}
+
+div.collapsible-body {
+   padding:0 !important; 
+}

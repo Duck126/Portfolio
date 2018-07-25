@@ -1,0 +1,401 @@
+/*CSS*/
+
+.name {
+    font-family: 'Lalezar', cursive;
+    position: absolute;
+    top: -12px;
+    left: 3%;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.profileimg {
+    position: absolute;
+    margin-top: 15px;
+    right: 25%;
+}
+
+
+ul.nav {
+    background-color: #433F40;
+    opacity: .80;
+    border-bottom-color: whitesmoke;
+}
+
+.nav-tabs .nav-item {
+    margin-bottom: -10px;
+    margin-right: 12px;
+    display: inline-block;
+}
+
+.line {
+    position: relative;
+    border: 10px solid transparent;
+    width: 100%;
+    border-bottom-color: whitesmoke;
+    /*border-left-color: rgb(112, 128, 144);*/
+    top: 10%;
+}
+
+.labelhead {
+    position: absolute;
+    top: 16px;
+    left: 18%;
+    font-family: 'Lalezar', cursive;
+    color: rgb(112, 128, 144);
+}
+
+.displayWork {
+    font-family: 'Lalezar', cursive;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.main {
+    margin-bottom: 15%;
+    height: auto;
+}
+
+a.sidelink {
+    color: whitesmoke;
+}
+
+.fontSty {
+    font-family: 'Lalezar', cursive;
+    color: whitesmoke;
+    border-color: #4444;
+}
+
+.subheader {
+    color: whitesmoke;
+}
+
+.dropdown-content li>span {
+    font-size: 16px;
+    font-family: 'Lalezar', cursive;
+    color: rgb(112, 128, 144);
+}
+
+.sidenav li>a {
+    color: whitesmoke;
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 32px;
+}
+
+.neat li {
+    display: inline;
+}
+
+.fab i {
+    display: block;
+    float: left;
+    font-family: 'Lalezar', cursive;
+}
+
+.fab .side {
+    color: whitesmoke;
+}
+
+.content {
+    display: block;
+    float: left;
+}
+
+.displayContainer {
+    width: 50%;
+    position: absolute;
+    top: 16.5%;
+    right: 10%;
+}
+
+.preFooter {
+    width: 100%;
+    background-color: whitesmoke;
+    opacity: .80;
+    height: 5px;
+    position: absolute;
+    top: 0px;
+}
+
+.bodyFooter {
+    width: 100%;
+    background-color: #433F40;
+    opacity: .80;
+    position: fixed;
+    bottom: 0%;
+    height: 7.5%;
+    z-index: 1;
+}
+
+.copyWr {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+button .btn .info {
+    color: white;
+    background-color: rgb(112, 128, 144);
+}
+
+.header {
+    color: whitesmoke;
+}
+
+.centerHeading {
+    position: absolute;
+    left: 42.5%;
+    top: 15%;
+    width: 15%;
+}
+
+.leftHeading {
+    position: absolute;
+    left: 9%;
+    top: 20%;
+    width: 15%;
+}
+
+.rightHeading {
+    position: absolute;
+    right: 8.5%;
+    top: 20%;
+    width: 15%;
+}
+
+.fadeImage {
+    position: absolute;
+    left: 35%;
+    top: 25%;
+    background-color: rgb(112, 128, 144);
+    max-width: 460px;
+    max-height: 270px;
+    border: solid 2px whitesmoke;
+}
+
+.linkImg {
+    width: 30px;
+}
+
+.leftWork {
+    position: absolute;
+    left: 7.5%;
+    top: 30%;
+    background-color: #4444;
+    max-width: 300px;
+    max-height: 180px;
+    border: solid 2px whitesmoke;
+}
+
+.modal {
+    z-index: 9999;
+    width: 60%;
+    max-height: 60%;
+    position: absolute;
+    top: -25%;
+}
+
+.rightWork {
+    position: absolute;
+    right: 5%;
+    top: 30%;
+    background-color: #4444;
+    max-width: 300px;
+    max-height: 180px;
+    border: solid 2px whitesmoke;
+}
+
+.fa-github-square {
+    margin-left: 0px;
+    margin-bottom: 0px;
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 12.5px;
+}
+
+.A {
+    position: absolute;
+    top: 65%;
+    background-color: #4444;
+}
+
+.B {
+    top: 105%;
+}
+
+.C {
+    top: 145%;
+}
+
+.D {
+    top: 185%;
+}
+
+a.drop1 {
+    position: absolute;
+    bottom: 2.5%;
+    right: 2.5%;
+    transition: transform .2s;
+    font-size: 14px;
+    background-color: #4444;
+    padding-bottom: 5px;
+}
+
+a.drop1:hover {
+    -ms-transform: scale(1.25);
+    /* IE 9 */
+    -webkit-transform: scale(1.25);
+    /* Safari 3-8 */
+    transform: scale(1.25);
+    background-color: #433F40;
+    color: whitesmoke;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url("../src/assets/images/background1.jpg");
+    background-attachment: fixed;
+    z-index: -2;
+}
+
+.btnLabel1 {
+    font-family: 'Lalezar', cursive;
+    ;
+    font-size: 12px;
+}
+
+a.sidenav-trigger {
+    visibility: hidden;
+    height: 0px;
+}
+
+@media only screen and (max-width: 980px) {
+    .container {
+        max-width: 768px;
+        /* Box-model */
+        padding: 0 20px;
+    }
+    main.container {
+        padding-top: 130px;
+    }
+    .main-section {
+        max-width: 420px;
+    }
+    .work {
+        width: 100%;
+    }
+    .auth-image {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main-section,
+    .sidebar {
+        max-width: 100%;
+    }
+    main {
+        overflow: auto;
+    }
+    .work {
+        /* Box-model */
+        width: 47%;
+        /* Positioning */
+        margin-bottom: 10px;
+    }
+    .work:nth-child(even) {
+        margin-right: 0;
+    }
+    .work:nth-child(odd) {
+        float: right;
+    }
+    .auth-image {
+        width: 50%;
+    }
+    .sidebar {
+        margin-bottom: 40px;
+    }
+    a.sidenav-trigger {
+        height: 29.6px;
+        position: absolute;
+        top: 15%;
+        left: 2%;
+        color: whitesmoke;
+        visibility:visible;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .nav-item {
+        display: none;
+    }
+    .name {
+        margin-left: 10%;
+        top: -18px;
+    }
+    .line {
+        margin-top: 20px;
+    }
+    .labelhead {
+        left: 65%;
+        top: 9px;
+    }
+    a.sidenav-trigger {
+        height: 29.6px;
+        position: absolute;
+        top: 15%;
+        left: 2%;
+        color: whitesmoke;
+        visibility:visible;
+    }
+    .sidenav {
+        background-color: #433F40;
+        opacity: .80;
+    }
+    .sidenav li>a {
+        padding-bottom: 5px;
+        padding: 0 45px;
+    }
+    .rightWork {
+        position: absolute;
+        right: 2.5%;
+        top: 30%;
+        background-color: #4444;
+        max-width: 150px;
+        max-height: 90px;
+        border: solid 2px whitesmoke;
+    }
+    .centerHeading {
+        position: absolute;
+        left: 42.5%;
+        top: 15%;
+        width: 15%;
+    }
+    
+    .leftHeading {
+        position: absolute;
+        left: 9%;
+        top: 20%;
+        width: 15%;
+    }
+    
+    .rightHeading {
+        position: absolute;
+        right:42.5%;
+        bottom: 0%;
+        width: 15%;
+    }
+}

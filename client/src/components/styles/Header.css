@@ -1,0 +1,144 @@
+export default 
+
+.name {
+    font-family: 'Lalezar', cursive;
+    position: absolute;
+    top: -12px;
+    left: 3%;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.profileimg {
+    position: absolute;
+    left: 5%;
+}
+
+ul.nav {
+    background-color: #433F40;
+    border-bottom-color: whitesmoke;
+}
+
+.nav-tabs .nav-item {
+    margin-bottom: -10px;
+    margin-right: 12px;
+}
+
+.line {
+    position: relative;
+    border: 10px solid transparent;
+    width: 100%;
+    border-bottom-color: whitesmoke;
+    /*border-left-color: rgb(112, 128, 144);*/
+    top: 10%;
+}
+
+.labelhead {
+    position: absolute;
+    top: 16px;
+    left: 21.5%;
+    font-family: 'Lalezar', cursive;
+    color: rgb(112, 128, 144);
+}
+
+.displayWork {
+    font-family: 'Lalezar', cursive;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.main {
+    margin-bottom: 15%;
+    height: auto;
+}
+
+a.sidelink {
+    color: whitesmoke;
+}
+
+.fontSty {
+    font-family: 'Lalezar', cursive;
+    color: whitesmoke;
+    border-color: #4444;
+}
+
+.subheader {
+    color: whitesmoke;
+}
+
+.dropdown-content li>span {
+    font-size: 16px;
+    font-family: 'Lalezar', cursive;
+    color: rgb(112, 128, 144);
+}
+
+.sidenav li>a {
+    color: whitesmoke;
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 32px;
+}
+
+.neat li {
+    display: inline;
+}
+
+.fab i {
+    display: block;
+    float: left;
+    font-family: 'Lalezar', cursive;
+}
+
+.fab .side {
+    color: whitesmoke;
+}
+
+.content {
+    display: block;
+    float: left;
+}
+
+.displayContainer {
+    width: 50%;
+    position: absolute;
+    top: 16.5%;
+    right: 10%;
+}
+
+.preFooter {
+    width: 100%;
+    background-color: whitesmoke;
+    opacity: .80;
+    height: 5px;
+    position: absolute;
+    top: 0px;
+}
+
+.bodyFooter {
+    width: 100%;
+    background-color: #433F40;
+    opacity: .80;
+    position: fixed;
+    bottom: 0%;
+    height: 7.5%;
+    z-index: 1;
+}
+
+.copyWr {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+button .btn .info {
+    color: white;
+    background-color: rgb(112, 128, 144);
+}
+
+.header {
+    color: whitesmoke;
+}
+
