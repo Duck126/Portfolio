@@ -1,29 +1,50 @@
 import React, { Component } from 'react';
 import "../styles/AboutList.css";
-import {Collapsible, CollapsibleItem} from "react-materialize";
-import ContactList from '../ContactList/ContactList';
+import withStyles from "@material-ui/core/styles";
+import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
+import ExpansionPanel from "@material-ui/core/ExpansionPanel";
+import Typography from "@material-ui/core/Typography";
+import style from "../styles/AboutStyle";
+import PropTypes from "prop-types";
 
 
-class AboutList extends Component{
-    render(){
+
+ class AboutList extends React.Component {
+     
+    state = {
+    expanded: null,
+    };
+
+    handleChange = (panel) => (event, expanded) => {
+        event.preventDefault(event);
+        this.setState({
+            expanded: expanded ? panel : false
+        });
+        console.log(this.state.expanded);
+    };
+
+    render() {
+        const {expanded} = this.state;
+        console.log(this.state.expanded);
         return (
-            <div >
-                <Collapsible className="AboutList" accordion defaultActiveKey={1}>
-                    <CollapsibleItem header='Contact Info' icon='forum'>
-                        <ContactList/>
-                    </CollapsibleItem>
-                    <CollapsibleItem header='Proficient Languages' icon='school'>
-                        Lorem ipsum dolor sit amet.
-                    </CollapsibleItem>
-                    <CollapsibleItem header='Projects' icon='work'>
-                        Lorem ipsum dolor sit amet.
-                    </CollapsibleItem>
-                </Collapsible>
+            
+            <div>
+                <ExpansionPanel style={style.Panel} onChange={this.handleChange('panel1')} expanded={expanded === 'panel1'}>
+                    <ExpansionPanelDetails>
+                        <Typography color="primary" variant="title">
+                            This Is The Expansion Panel
+                        </Typography>
+                    </ExpansionPanelDetails>
+                </ExpansionPanel>
             </div>
-        )
+        );
     }
 }
 
+AboutList.propTypes = {
+    classes: PropTypes.func.isRequired,
+};
 
+console.log(AboutList.propTypes);
 
 export default AboutList;

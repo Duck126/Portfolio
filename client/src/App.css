@@ -10,9 +10,10 @@
 }
 
 .profileimg {
-    position: absolute;
+    position: relative;
     margin-top: 15px;
-    right: 25%;
+    left: 25%;
+    margin-bottom: 15px;
 }
 
 
@@ -267,6 +268,8 @@ body {
     background-size: cover;
     background-image: url("../src/assets/images/background1.jpg");
     background-attachment: fixed;
+    height: auto;
+    overflow-y: unset;
     z-index: -2;
 }
 
