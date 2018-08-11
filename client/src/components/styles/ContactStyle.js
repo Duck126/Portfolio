@@ -10,16 +10,22 @@ const styles = {
         
     },
     List: {
-        backgroundColor: '#44444',
-        width: '100%'
+        backgroundColor: 'whitesmoke',
+        width: '100%',
+        marginLeft: '4%',
+        
+
     },
     ContactItem: {
         width: '100%',
-        backgroundColor: 'whitesmoke'
+        height: '50px',
+        backgroundColor: 'whitesmoke',
+        fontWeight: 'bold',
+        fontFamily: 'Lalezar, cursive',
     },
     ItemText: {
         color: 'whitesmoke'
-    }
+    },
 }
 
 export default styles;

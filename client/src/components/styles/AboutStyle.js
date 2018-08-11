@@ -13,8 +13,19 @@ const style = {
         color: 'Blue'
     },
     AboutItem: {
-        height: 'auto'
+        padding: '0px',
+        height: '150px'
+    },
+    AboutItem1: {
+        padding: '0px',
+        height: '150px',
+        marginBottom: '25%'
+    },
+    LangList:{
+        marginLeft: '10%',
+        marginRight: '15%',
     }
+    
 }
 
 export default style;

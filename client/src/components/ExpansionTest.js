@@ -41,17 +41,25 @@ function ExpansionTest (props) {
           <Typography className={classes.heading}>Languages</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-            sit amet blandit leo lobortis eget.
-          </Typography>
+          <ul className={classes.LangList}>
+            <li>MongoDB</li>
+            <li>Express.js</li>
+            <li>React.js</li>
+            <li>Node.js</li>
+          </ul>
+          <ul className={classes.LangList}>
+            <li>Javascript</li>
+            <li>Mongoose</li>
+            <li>Material-UI</li>
+            <li>Axios</li>
+          </ul>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      <ExpansionPanel>
+      <ExpansionPanel className={classes.AboutItem}>
         <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
           <Typography className={classes.heading}>Contact Info</Typography>
         </ExpansionPanelSummary>
-        <ExpansionPanelDetails className={classes.AboutItem}>
+        <ExpansionPanelDetails className={classes.AboutItem1}>
           <ContactList/>
         </ExpansionPanelDetails>
       </ExpansionPanel>
