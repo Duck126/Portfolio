@@ -27,10 +27,10 @@ function ExpansionTest (props) {
     <div className={classes.panel}>
       <ExpansionPanel>
         <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography className={classes.heading}>Projects</Typography>
+          <Typography className={classes.Heading}>Projects</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
-          <Typography>
+          <Typography className={classes.Heading}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
             sit amet blandit leo lobortis eget.
           </Typography>
@@ -38,7 +38,7 @@ function ExpansionTest (props) {
       </ExpansionPanel>
       <ExpansionPanel>
         <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography className={classes.heading}>Languages</Typography>
+          <Typography className={classes.Heading}>Languages</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <ul className={classes.LangList}>
@@ -57,7 +57,7 @@ function ExpansionTest (props) {
       </ExpansionPanel>
       <ExpansionPanel className={classes.AboutItem}>
         <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography className={classes.heading}>Contact Info</Typography>
+          <Typography className={classes.Heading}>Contact Info</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className={classes.AboutItem1}>
           <ContactList/>

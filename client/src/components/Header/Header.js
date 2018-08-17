@@ -10,7 +10,7 @@ class Header extends Component{
                     <h3 className="name">Jonathan Duck</h3>
                     <NavList/>
                     <div className="line shadow"></div>
-                    <h5 className='labelhead' style={style.labelhead}>About Me</h5>
+                    <h5 className='labelhead' style={style.labelhead}>Full Stack Developer</h5>
                     <a href="#" data-target="slide-out" className="sidenav-trigger">
                         <i className="material-icons">menu</i>
                     </a>

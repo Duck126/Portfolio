@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import List from '@material-ui/core/List';
+import Typography from "@material-ui/core/Typography";
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
@@ -17,22 +18,22 @@ function ContactList(props) {
     <div className={classes.Container}>
       <List component="nav" className={classes.List}>
         <ListItem button component="a" href="#simple-list" className={classes.ContactItem}>
-          <ListItemIcon>
+          <ListItemIcon className={classes.ItemText}>
             <ClassIcon/>
           </ListItemIcon>
-          <ListItemText primary="Linkedin"/>
+          <Typography className={classes.Font}>LinkedIn Profile</Typography>
         </ListItem>
         <ListItem button component="a" href="#simple-list" className={classes.ContactItem}>
-          <ListItemIcon>
+          <ListItemIcon className={classes.ItemText}>
             <CodeIcon/>
           </ListItemIcon>
-          <ListItemText primary="Github"/>
+          <Typography className={classes.Font}>Github Profile</Typography>
         </ListItem>
         <ListItem button className={classes.ContactItem}>
-          <ListItemIcon>
+          <ListItemIcon className={classes.ItemText}>
             <DraftsIcon/>
           </ListItemIcon>
-          <ListItemText primary="Email"/>
+          <Typography className={classes.Font}>Email</Typography>
         </ListItem>
       </List>
     </div>
